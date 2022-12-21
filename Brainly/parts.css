@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav{
+    background-color: black;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    color: white;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    color: white;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+a.active,a:hover{
+    transition: .5s;
+}
+
+.brainPartsImage1{
+        display: block;
+        margin-left: 27%;
+        margin-right: 50%;
+        margin-top: 12%;
+        margin-bottom: 25%;
+        width: 50%;
+
+}
+
+.container {
+    color: black;
+    background-color: black;
+}
+
+
+.footer {
+    font-size: 12px;
+}

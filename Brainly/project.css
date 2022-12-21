@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: montserrat;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav{
+    background-color: black;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    color: white;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    color: white;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+a.active,a:hover{
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+}
+
+
+.titleImageAndText {
+    margin-top: 10rem;
+    text-align: center;
+    border-bottom-color: black;
+}
+
+.titleImage {
+    height: 15rem;
+    width: 15rem;
+}
+
+.titleText {
+    margin-top: 3rem;
+    font-size: larger;
+}
+
+.container {
+    color: black;
+    background-color: black;
+}
+
+.footer {
+    font-size: 12px;
+}
